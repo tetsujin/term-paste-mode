@@ -109,6 +109,7 @@
   :group 'term-paste
   :type 'hook)
 
+;;;###autoload
 (define-minor-mode term-paste-mode
   "Minor mode for pasting some text from terminal correctly."
   :lighter " Paste"
